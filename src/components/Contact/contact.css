@@ -1,0 +1,125 @@
+.con-container{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  .w-30{
+    width: 30%;
+  }
+  .w-full{
+    width: 100%;
+  }
+  .contact-card{
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: #00000029 0 1px 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+  
+  }
+  .contact-card:hover{
+    transform: scale(1.1);
+  }
+  .text-lg{
+    font-size: 1.1rem;
+  }
+  .text-xl{
+    font-size: 1.3rem;
+  }
+  .text-xxl{
+    font-size: 1.5rem;
+  }
+  .text-normal{
+    font-size: 1rem;
+  }
+  .contact-inputs input[type="text"]{
+    border: 1px solid #dedede;
+    padding: 10px 20px;
+    width: 90%;
+  }
+  input[type="email"]{
+    border: 1px solid #dedede;
+    padding: 10px 20px;
+  }
+  textarea{
+    border: 1px solid #dedede;
+    padding: 10px 20px;
+    outline: none;
+  }
+
+  .contact-form{
+    width: 70%;
+    /* margin-top: 30px; */
+  }
+  .form-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 100px;
+
+  }
+  .row-1{
+    display: flex;
+  }
+  .form-name{
+    width: 50%;
+  }
+  .w-90{
+    width: 90%;
+  }
+  .w-95{
+    width: 95%;
+  }
+  .all-forms{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  .contact-connect{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .contact-btns{
+    display: flex;
+  }
+  .w-50{
+    width: 50%;
+  }
+  .c-btn{
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+  }
+  .c-btn1{
+    background-color: #0f3460;
+    width: fit-content;
+  }
+  .c-btn2{
+    background-color: #0fab5b;
+  }
+  .c-btn1:hover{
+    background-color: #0f4486;
+    /* color: black; */
+    /* border: 1px solid #0f3460; */
+  }
+  .c-btn2:hover{
+    background-color: #13cb6c;
+    /* color: black; */
+    /* border: 1px solid #0fab5b; */
+  }
+  
