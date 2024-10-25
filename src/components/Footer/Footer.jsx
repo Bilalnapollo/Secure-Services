@@ -145,10 +145,10 @@ const Footer = () => {
             <p>
               @{new Date().getFullYear()} Bilal Kashif. All Rights Reserved
             </p>
-            <div>
+            {/* <div>
               <p>PRIVACY POLICY</p>
               <p>TERMS & CONDITIONS</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

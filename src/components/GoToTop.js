@@ -48,7 +48,7 @@ const Wrapper = styled.div`
     width: 3.5rem;
     height: 3.5rem;
     color: #fff;
-    background-color: rgb(98 84 243);
+    background-color: blue;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
     border-radius: 50%;
     position: fixed;
@@ -76,8 +76,8 @@ const Wrapper = styled.div`
 
   @media (max-width: 768px) {
     .top-btn {
-      right: 0;
-      left: 40%;
+      right: 5%;
+      
     }
   }
 `;
