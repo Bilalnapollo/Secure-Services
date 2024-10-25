@@ -122,4 +122,44 @@
     /* color: black; */
     /* border: 1px solid #0fab5b; */
   }
+
+  @media (max-width: 995px){
+    .con-container{
+      flex-wrap: wrap;
+    }
+    .contact-card{
+      padding: 20px;
+    }
+    .form-container{
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .contact-form{
+      width: 100%;
+    }
+    .iframe-con{
+      width: 100%;
+    }
+    .iframe-con iframe{
+      width: 95%;
+    }
+    .form-container{
+      padding-bottom: 0;
+    }
+
+  }
+
+  @media (max-width: 772px){
+    .con-container{
+      justify-content: center;
+      gap: 30px
+    }
+    .w-30{
+      width: 85%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  
   
