@@ -53,9 +53,16 @@
     width: 25%;
     text-align: center;
     padding: 8px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .btn-primary:hover{
     color: white;
     background: #0cc566;
+}
+
+@media (max-width: 767px){
+    .btn-primary{
+        width: fit-content
+    }
+
 }

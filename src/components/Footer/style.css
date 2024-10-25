@@ -86,7 +86,7 @@ section{
 footer {
   /* padding: 14rem 0 9rem 0; */
   padding-top: 10rem;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   background-color: #0a1435;
 }
 footer h3 {
@@ -113,6 +113,7 @@ footer p {
 
 .rights p{
   opacity: 0.7;
+  text-align: center;
 }
 .footer-social--icons {
   display: flex;
@@ -212,7 +213,7 @@ input[type="submit"]{
 
 @media (max-width:998px) {
   .container{
-    padding: 0 3.2rem;
+    /* padding: 0 3.2rem; */
   }
 
     .grid-three-column {

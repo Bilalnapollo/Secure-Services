@@ -141,7 +141,7 @@ const Footer = () => {
         {/* bottom section  */}
         <div className="footer-bottom--section">
           <hr />
-          <div className="container grid grid-two-column rights">
+          <div className="container  rights">
             <p>
               @{new Date().getFullYear()} Bilal Kashif. All Rights Reserved
             </p>
