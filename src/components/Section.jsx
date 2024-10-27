@@ -16,11 +16,20 @@ const Section = ({ title, bgColor, productItems }) => {
     // dots: true,
 
     dots: true,
-    autoplay: true,
+    // autoplay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+    {
+      breakpoint: 768, // Mobile devices
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
   }
   return (
     <section style={{ background: bgColor }} data-aos="fade-left">
