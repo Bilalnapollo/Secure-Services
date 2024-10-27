@@ -48,7 +48,7 @@ const Wrapper = styled.div`
     width: 3.5rem;
     height: 3.5rem;
     color: #fff;
-    background-color: blue;
+    background-color: #1c426f;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
     border-radius: 50%;
     position: fixed;

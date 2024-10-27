@@ -66,7 +66,7 @@ footer li {
 .whatsapp-btn{
   text-decoration: none;
   max-width: auto;
-  background-color: rgb(98 84 243);
+  background-color: #1c426f;
   color: rgb(255 255 255);
   padding: 14px 40px;
   font-size: 12px;
@@ -87,7 +87,7 @@ footer {
   /* padding: 14rem 0 9rem 0; */
   padding-top: 10rem;
   padding-bottom: 1rem;
-  background-color: #0a1435;
+  background-color: black;
 }
 footer h3 {
   color: #ffffff;
@@ -142,7 +142,7 @@ footer p {
 input[type="submit"]{
     max-width: 16rem;
     margin-top: 1rem;
-    background-color: rgb(98 84 243);
+    background-color: #1c426f;
     color: #fff;
     padding: 0.8rem 1.5rem;
     border-style: solid;

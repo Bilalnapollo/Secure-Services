@@ -75,15 +75,29 @@
   color: black; /* Default color */
   font-weight: bold;
   transition: color 0.3s ease;
+  position:relative;
+  z-index: 1;
 }
+
 .navbar-link span:hover{
-  color: blue;
+  background-color: #1c426f;
+  color: white;
+  /* padding: 5px 10px; */
+
+  /* color: #91640F; */
+  /* border-bottom: 1px solid #47d1e7; */
   /* font-weight: bold; */
 }
 
 .navbar-link.active-link span {
-  color: blue; /* Active link color */
+  color: white; /* Active link color */
   /* font-weight: bold; */
+  background-color: #1c426f;
+  padding: 5px 10px;
+  font-size: 1rem !important;
+}
+.navbar-link.active-link span:hover{
+  border-bottom: none;
 }
 
 @media (max-width: 767px) {
@@ -126,8 +140,10 @@
 
 .nav-link-label {
   color: black;
-  font-size: 18px !important;
-  font-weight: 600;
+  font-size: 1rem !important;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: all 0.5s;
 }
 
 .nav-icon {

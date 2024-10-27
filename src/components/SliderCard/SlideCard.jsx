@@ -8,7 +8,7 @@ const SlideCard = ({title,desc,cover}) => {
           <Col md={6}>
             <h1>{title}</h1>
             <p>{desc}</p>
-            <a href="https://wa.me/923009403453" target="_blank" className='btn-primary' data-aos="fade-up">WhatsApp</a>
+            <a href="https://wa.me/923009403453" target="_blank" className='btn-primary'>WhatsApp</a>
           </Col>
           <Col md={6}>
             <img src={cover} alt="#" />
