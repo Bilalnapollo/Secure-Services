@@ -103,6 +103,13 @@ button {
   border:none !important
 }
 
+/* .slick-prev:before{
+  display: none;
+}
+.slick-next:before{
+  display: none;
+} */
+
 @media (max-width: 767px) {
   .filter-bar .row {
     gap: 20px;
