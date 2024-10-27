@@ -8,6 +8,7 @@ import { FaDiscord, FaFacebook, FaInstagram, FaWhatsapp, FaYoutube } from "react
 import { IoIosCall,IoIosMail} from "react-icons/io";
 
 
+
 const Footer = () => {
   const navigate = useNavigate();
 
@@ -68,13 +69,16 @@ const Footer = () => {
       <section className="contact-short">
         <div className="grid grid-two-column">
           <div className="top-font-size">
-            <h3>Ready to get started?</h3>
-            <h3>Talk to us today</h3>
+            {/* <h3>Ready to get started?</h3>
+            <h3>Talk to us today</h3> */}
+            <Link to="/">
+              <img src={logo} alt="" width={90} />
+            </Link>
           </div>
 
           <div className="contact-short-btn">
-            <Link to="/">
-              <button className="whatsapp-btn">Get Started</button>
+            <Link to="/shop">
+              <button className="whatsapp-btn">Shop Now</button>
             </Link>
           </div>
         </div>
@@ -151,7 +155,7 @@ const Footer = () => {
           <hr />
           <div className="container  rights">
             <p>
-              @{new Date().getFullYear()} Bilal Kashif. All Rights Reserved
+            &copy; {new Date().getFullYear()} Security Services All Rights Reserved by site
             </p>
             {/* <div>
               <p>PRIVACY POLICY</p>
