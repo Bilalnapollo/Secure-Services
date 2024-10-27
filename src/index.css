@@ -82,7 +82,7 @@ button {
 .homeSlide {
   display: flex;
   justify-content: center;
-  background-color: #f6f9fc;
+  background: linear-gradient(135deg, #aad3ff, #0056b3);
   padding-bottom: 0 !important;
 }
 

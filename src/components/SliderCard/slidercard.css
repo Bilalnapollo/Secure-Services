@@ -7,11 +7,13 @@
 .homeSlide h1 {
     font-size: 45px;
     line-height: 55px;
+    color: white;
     margin: 50px 0 20px 0;
 }
 
 .homeSlide p {
     margin: 20px 0;
+    color: white;
 }
 
 .homeSlide ul {
