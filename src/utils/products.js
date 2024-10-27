@@ -26,16 +26,16 @@ import watch03 from "../Images/watch-03.jpg";
 import watch04 from "../Images/watch-04.jpg";
 
 import wireless01 from "../Images/wireless-01.png";
-import banner2 from "../Images/banner2.png";
+import banner2 from "../Images/banner2.jpeg";
 import wireless02 from "../Images/wireless-02.png";
 import wireless03 from "../Images/wireless-03.png";
 import wireless04 from "../Images/wireless-04.png";
 
 import sofaSlide from "../Images/hero-img.png";
 import watchSlide from "../Images/watch-07.png";
-import banner3 from "../Images/banner3.png";
+import banner3 from "../Images/b4.jpeg";
 import banner4 from "../Images/banner4.png";
-import banner from "../Images/banner.png";
+import banner from "../Images/b1.jpeg";
 
 
 import product1 from "../Images/product1.png";

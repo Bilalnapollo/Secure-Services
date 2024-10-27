@@ -82,6 +82,7 @@
 .navbar-link span:hover{
   background-color: #1c426f;
   color: white;
+  border-radius: 5px;
   /* padding: 5px 10px; */
 
   /* color: #91640F; */
@@ -93,7 +94,8 @@
   color: white; /* Active link color */
   /* font-weight: bold; */
   background-color: #1c426f;
-  padding: 5px 10px;
+  padding: 8px 15px;
+  border-radius: 5px;
   font-size: 1rem !important;
 }
 .navbar-link.active-link span:hover{
@@ -142,8 +144,8 @@
   color: black;
   font-size: 1rem !important;
   font-weight: bold;
-  padding: 5px 10px;
-  transition: all 0.5s;
+  padding: 8px 15px;
+  transition: all 0.3s;
 }
 
 .nav-icon {
