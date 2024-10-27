@@ -16,7 +16,7 @@ const Section = ({ title, bgColor, productItems }) => {
     // dots: true,
 
     dots: true,
-    // autoplay: true,
+    autoplay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,

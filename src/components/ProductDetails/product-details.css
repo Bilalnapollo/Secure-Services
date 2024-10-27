@@ -25,6 +25,13 @@
     gap: 30px;
   }
 }
+@media (max-width: 575px) {
+  .img-style {
+    width: 80%;
+  }
+}
+
+
 
 .product-page .rate {
   display: flex;

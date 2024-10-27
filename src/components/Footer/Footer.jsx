@@ -115,14 +115,22 @@ const Footer = () => {
             <h3>Follows Us</h3>
             <div className="footer-social--icons">
               <div className="w-icon">
-                <FaWhatsapp className="icons" />
+                <a
+                  href="https://wa.me/923009403453"
+                  target="_blank">
+                  <FaWhatsapp className="icons" />
+                </a>
               </div>
               <div className="f-icon">
-                <FaFacebook className="icons" />
+                <a
+                  href="#"
+                  target="_blank">
+                  <FaFacebook className="icons" />
+                </a>
               </div>
               <div className="i-icon">
                 <a
-                  href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                  href="#"
                   target="_blank">
                   <FaInstagram className="icons" />
                 </a>
@@ -134,7 +142,7 @@ const Footer = () => {
           <div className="footer-contact">
             <h3>Contact Us</h3>
             <h3 className="icon-flex"><IoIosCall color="#0fab5b" size={25}/> +92 3009403453</h3>
-            <h3 className="icon-flex"><IoIosMail color="red" size={25}/> test@gmail.com</h3>
+            <h3 className="icon-flex"><IoIosMail color="red" size={25}/> sohailbuttlhr42@gmail.com</h3>
           </div>
         </div>
 

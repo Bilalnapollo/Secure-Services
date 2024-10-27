@@ -30,7 +30,7 @@ const ContactCard = () => {
                 </div>
               </div>
               <div className='contact-bottom' >
-                  <p className='text-lg'>(+92) 316 - 7812383</p>
+                  <p className='text-lg'>+92 3009403453</p>
               </div>
         </div>
         <div className='contact-card w-30' onClick={handleEmaleRedirect}>
@@ -45,7 +45,7 @@ const ContactCard = () => {
                 </div>
               </div>
               <div className='contact-bottom'>
-                  <p className='text-lg'>test@gmail.com</p>
+                  <p className='text-lg'>sohailbuttlhr42@gmail.com</p>
               </div>
         </div>
         <div className='contact-card w-30' onClick={handleAddressRedirect}>
