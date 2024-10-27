@@ -177,6 +177,21 @@ input[type="submit"]:hover{
     align-items: center;
     gap: 5px;
 }
+.place-center{
+    place-items: center;
+}
+.top-footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1400px){
+    .grid-four-column{
+        grid-template-columns: repeat(2, 1fr) !important;
+        /* place-items: center !important; */
+    }
+}
 
 @media (max-width: 768px) {
   .contact-short {
@@ -192,6 +207,10 @@ input[type="submit"]:hover{
   }
   footer .footer-bottom--section {
     padding-top: 3.2rem;
+  }
+  .top-footer-flex{
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 
@@ -238,6 +257,9 @@ input[type="submit"]:hover{
   }
 
   .grid-two-column, .grid-three-column, .grid-four-column{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+  }
+  .grid-four-column{
+    /* place-items: center !important; */
   }
 }

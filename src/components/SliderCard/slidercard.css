@@ -62,9 +62,10 @@
     background: #0cc566;
 }
 
-@media (max-width: 767px){
+@media (max-width: 998px){
     .btn-primary{
-        width: fit-content
+        width: fit-content;
+        padding: 8px 20px;
     }
 
 }

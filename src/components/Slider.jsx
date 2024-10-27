@@ -16,7 +16,7 @@ const SliderHome = () => {
     // dots: true,
 
     dots: true,
-    autoplay: true,
+    // autoplay: true,
     infinite: true,
     arrows: false,
     speed: 500,
