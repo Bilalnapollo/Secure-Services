@@ -8,7 +8,7 @@ const SlideCard = ({title,desc,cover}) => {
           <Col md={6}>
             <h1 data-aos="fade-down">{title}</h1>
             <p data-aos="fade-down">{desc}</p>
-            <a data-aos="fade-right" href="https://wa.me/923009403453" target="_blank" className='btn-primary'>WhatsApp</a>
+            <a data-aos="fade-up" href="https://wa.me/923009403453" target="_blank" className='btn-primary'>WhatsApp</a>
           </Col>
           <Col md={6}>
             <img src={cover} alt="#" />
