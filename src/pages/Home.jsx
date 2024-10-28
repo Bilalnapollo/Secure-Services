@@ -5,6 +5,7 @@ import { products, discoutProducts } from "../utils/products";
 import SliderHome from "../components/Slider";
 import useWindowScrollToTop from "../hooks/useWindowScrollToTop";
 import ContactForm from "../components/Contact/ContactForm";
+import ProductCategories from "../components/ProductCategories/ProductCategories";
 
 const Home = () => {
   const newArrivalData = products.filter(
@@ -28,6 +29,8 @@ const Home = () => {
         productItems={newArrivalData}
       /> */}
       <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
+
+      <ProductCategories products={products} />
 
       {/* <ContactForm heading="Contact Us" /> */}
       

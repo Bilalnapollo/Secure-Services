@@ -1888,3 +1888,12 @@ export const products = [
 
 
 ];
+
+
+export const categoryImages = {
+  "CCTV Camera": "/path/to/cctv-camera-bg.jpg",
+  "Wifi Camera": "/path/to/mobile-bg.jpg",
+  "Fire & Safety":  "/path/to/wireless-bg.jpg",
+  "Access Control": "/path/to/wireless-bg.jpg",
+  // Add other categories and their image paths here
+};

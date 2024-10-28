@@ -10,10 +10,14 @@ import "react-toastify/dist/ReactToastify.css";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import GoToTop from "./components/GoToTop";
+// import Categories from "./components/ProductCategories/Categories";
+// import Categories from "./components/ProductCategories/Categories";
 const Home = lazy(() => import("./pages/Home"));
 const Shop = lazy(() => import("./pages/Shop"));
 const Cart = lazy(() => import("./pages/Cart"));
 const Product = lazy(() => import("./pages/Product"));
+const Categories = lazy(() => import("./components/ProductCategories/Categories"));
+
 function App() {
   return (
     <Suspense fallback={<Loader />}>
@@ -38,6 +42,7 @@ function App() {
           <Route path="/shop/:id" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/category/:categoryName" element={<Categories />} />
         </Routes>
         <Footer />
       </Router>
