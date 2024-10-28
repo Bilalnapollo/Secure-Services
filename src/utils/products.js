@@ -125,6 +125,11 @@ import product81 from "../Images/product81.png";
 import product82 from "../Images/product82.png";
 import product83 from "../Images/product83.png";
 import product84 from "../Images/product84.png";
+import product85 from "../Images/product85.png";
+import product86 from "../Images/product86.png";
+// import product87 from "../Images/product87.png";
+// import product88 from "../Images/product88.png";
+import product89 from "../Images/product89.png";
 
 
 
@@ -2184,6 +2189,97 @@ export const products = [
     ],
     avgRating: 4.8,
   },
+  {
+    id: "85",
+    productName: "SS-CCM-001",
+    imgUrl: product85,
+    category: "Cash Counter Machine",
+    price: 139,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "86",
+    productName: "SS-CCM-002",
+    imgUrl: product86,
+    category: "Cash Counter Machine",
+    price: 139,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  
+  // {
+  //   id: "86",
+  //   productName: "SS-CCM-002",
+  //   imgUrl: product86,
+  //   category: "Cash Counter Machine",
+  //   price: 139,
+  //   shortDesc:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  //   reviews: [
+  //     {
+  //       rating: 4.8,
+  //       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  //     },
+  //     {
+  //       rating: 4.9,
+  //       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  //     },
+  //   ],
+  //   avgRating: 4.8,
+  // },
+
+  // {
+  //   id: "89",
+  //   productName: "SS-SR-001",
+  //   imgUrl: product89,
+  //   category: "Signal Router",
+  //   price: 139,
+  //   shortDesc:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+  //   reviews: [
+  //     {
+  //       rating: 4.8,
+  //       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  //     },
+  //     {
+  //       rating: 4.9,
+  //       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  //     },
+  //   ],
+  //   avgRating: 4.8,
+  // },
+  
 
 
 ];

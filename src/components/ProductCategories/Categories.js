@@ -8,6 +8,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const Categories = () => {
 
     const { categoryName } = useParams();
+    
 
   // Filter products based on selected category
   const filteredProducts = products.filter(

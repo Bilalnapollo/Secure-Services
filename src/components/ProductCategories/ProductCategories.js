@@ -8,6 +8,8 @@ import fire from "../../Images/fire.png";
 import controll from "../../Images/controll.png";
 import phones from "../../Images/product76.png";
 import attendence from "../../Images/product79.png";
+import counter from "../../Images/product85.png";
+import matel from "../../Images/product87.png";
 import "./categories.css";
 
 const ProductCategories = ({ products }) => {
@@ -22,6 +24,8 @@ const ProductCategories = ({ products }) => {
         "Access Control": controll,
         "Door Phone Audio Video": phones,
         "Attendance Machine": attendence,
+        "Cash Counter Machine": counter,
+        // "Matel Detecter": matel,
         // Add more categories and corresponding images
       };
     
