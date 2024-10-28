@@ -16,7 +16,7 @@ const SliderHome = () => {
     // dots: true,
 
     dots: true,
-    // autoplay: true,
+    autoplay: true,
     infinite: true,
     arrows: false,
     speed: 500,
@@ -25,7 +25,7 @@ const SliderHome = () => {
   }
   
   return (
-      <section className='homeSlide' data-aos="fade-right">
+      <section className='homeSlide'>
         <Container>
           <Slider {...settings}>
           {SliderData.map((value, index) => {

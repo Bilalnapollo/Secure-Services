@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <Fragment>
       <SliderHome />
-      <Wrapper />
+      {/* <Wrapper /> */}
       {/* <Section
         title="Big Discount"
         bgColor="#f6f9fc"
@@ -28,9 +28,13 @@ const Home = () => {
         bgColor="white"
         productItems={newArrivalData}
       /> */}
-      <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
 
       <ProductCategories products={products} />
+
+
+      <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
+
+      {/* <ProductCategories products={products} /> */}
 
       {/* <ContactForm heading="Contact Us" /> */}
       
