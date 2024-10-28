@@ -25,7 +25,7 @@ const ProductCategories = ({ products }) => {
     <>
       <section>
       <Container>
-      <div className="heading">
+      <div data-aos="fade-right" className="heading">
           <h1>Categories</h1>
         </div>
       {/* <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
@@ -50,7 +50,7 @@ const ProductCategories = ({ products }) => {
         categories.map((category)=>{
             return(
             <>
-                <div className="cat-card" onClick={() => navigate(`/category/${category}`)}>
+                <div data-aos="fade-right" className="cat-card" onClick={() => navigate(`/category/${category}`)}>
                     <div className="cat-card-header">
                         <img src={categoryImages[category]} alt="" style={{width:"100%",objectFit:"contain", maxHeight: "220px"}} />
                     </div>
