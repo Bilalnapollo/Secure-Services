@@ -32,7 +32,7 @@ const Home = () => {
       <ProductCategories products={products} />
 
 
-      <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
+      <Section title="Discover Our Exclusive Products" bgColor="#f6f9fc" productItems={bestSales} />
 
       {/* <ProductCategories products={products} /> */}
 
