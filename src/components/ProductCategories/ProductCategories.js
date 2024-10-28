@@ -6,6 +6,8 @@ import cctv from "../../Images/cctv.png";
 import wifi from "../../Images/wifi.png";
 import fire from "../../Images/fire.png";
 import controll from "../../Images/controll.png";
+import phones from "../../Images/product76.png";
+import attendence from "../../Images/product79.png";
 import "./categories.css";
 
 const ProductCategories = ({ products }) => {
@@ -18,6 +20,8 @@ const ProductCategories = ({ products }) => {
         "Wifi Camera": wifi,
         "Fire & Safety": fire,
         "Access Control": controll,
+        "Door Phone Audio Video": phones,
+        "Attendance Machine": attendence,
         // Add more categories and corresponding images
       };
     
