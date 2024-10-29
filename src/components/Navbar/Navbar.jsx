@@ -84,7 +84,7 @@ const NavBar = () => {
           </Navbar.Toggle>
         </div>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="justify-content-end flex-grow-1 pe-3">
+          <Nav className="justify-content-end flex-grow-1 pe-3 nav-labels">
             <Nav.Item>
               <Link
                 aria-label="Go to Home Page"

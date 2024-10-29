@@ -28,7 +28,7 @@ const About = () => {
         alignItems: "center",
         textAlign:"center"
         }}>
-          <Container>
+          <Container data-aos="fade-up">
             <Row>
               <Col>
                 <h2 style={{ color: "#fff" }}>About Us</h2>  {/* Ensure text is visible */}
@@ -39,7 +39,7 @@ const About = () => {
       </div>
       <section>
         <Container>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste sequi eveniet ipsum. Error cumque ipsum delectus molestias provident cum, harum deleniti placeat commodi exercitationem minima dignissimos facere nisi hic modi. Vero ex maxime excepturi quo dolores iusto nobis ipsum debitis. Quam numquam molestiae animi veniam non officia provident ipsam, optio tenetur eaque ipsum accusamus quidem nam aliquam modi consectetur dolores id officiis ullam quaerat voluptas. Dolor reiciendis eaque animi voluptas odio provident enim earum error ab vel laborum aliquam minima, odit expedita maiores quae, molestiae assumenda quos veniam? Natus, totam iure quas laudantium deserunt magni commodi delectus accusamus earum?</p>
+            <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste sequi eveniet ipsum. Error cumque ipsum delectus molestias provident cum, harum deleniti placeat commodi exercitationem minima dignissimos facere nisi hic modi. Vero ex maxime excepturi quo dolores iusto nobis ipsum debitis. Quam numquam molestiae animi veniam non officia provident ipsam, optio tenetur eaque ipsum accusamus quidem nam aliquam modi consectetur dolores id officiis ullam quaerat voluptas. Dolor reiciendis eaque animi voluptas odio provident enim earum error ab vel laborum aliquam minima, odit expedita maiores quae, molestiae assumenda quos veniam? Natus, totam iure quas laudantium deserunt magni commodi delectus accusamus earum?</p>
         </Container>
       </section>
     </>

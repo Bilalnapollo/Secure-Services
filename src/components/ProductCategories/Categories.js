@@ -43,7 +43,7 @@ const Categories = () => {
         alignItems: "center",
         textAlign:"center"
         }}>
-          <Container>
+          <Container data-aos="fade-up">
             <Row>
               <Col>
                 <h2 style={{ color: "#fff" }}>{categoryName}</h2>  {/* Ensure text is visible */}

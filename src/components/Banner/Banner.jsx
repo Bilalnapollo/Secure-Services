@@ -6,7 +6,7 @@ const Banner = ({title}) => {
         <div className="image-container">
             <img src={productBg} alt="Product-bg" />
             <div className="overlay">
-                <Container>
+                <Container data-aos="fade-up">
                     <Row>
                         <Col>
                             <h2>{title}</h2>

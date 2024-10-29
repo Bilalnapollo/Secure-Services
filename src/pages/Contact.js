@@ -34,7 +34,7 @@ const Contact = () => {
         alignItems: "center",
         textAlign:"center"
         }}>
-          <Container>
+          <Container data-aos="fade-up">
             <Row>
               <Col>
                 <h2 style={{ color: "#fff" }}>Conatct</h2>  {/* Ensure text is visible */}
