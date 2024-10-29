@@ -4,8 +4,10 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import ProductCard2 from "./ProductCard/ProductCard2";
+import { useState } from "react";
 
 const Section = ({ title, bgColor, productItems }) => {
+  const [dotIndex, setDotIndex] = useState(0); 
   const settings = {
     // nav:false,
     // infinite: true,
@@ -22,6 +24,20 @@ const Section = ({ title, bgColor, productItems }) => {
     speed: 500,
     slidesToShow: productItems.length < 3 ? productItems.length : 3,
     slidesToScroll: 1,
+    beforeChange: (oldIndex, newIndex) => {
+      // Update the starting dot index based on the current slide
+      const newDotIndex = Math.floor(newIndex / 5) * 5;
+      setDotIndex(newDotIndex);
+    },
+    appendDots: (dots) => (
+      <div>
+        <ul style={{ display: "flex", justifyContent: "center",position: "relative",top: "18px" }}>
+          {/* Only show 5 dots at a time based on the current dotIndex */}
+          {dots.slice(dotIndex, dotIndex + 5)}
+        </ul>
+      </div>
+    ),
+    
     responsive: [
     {
       breakpoint: 768, // Mobile devices

@@ -103,6 +103,10 @@ button {
   border:none !important
 }
 
+.slick-dots{
+  /* bottom: -45px !important; */
+}
+
 /* React Slick css */
 
 
