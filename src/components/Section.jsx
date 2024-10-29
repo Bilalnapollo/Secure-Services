@@ -31,7 +31,7 @@ const Section = ({ title, bgColor, productItems }) => {
     },
     appendDots: (dots) => (
       <div>
-        <ul style={{ display: "flex", justifyContent: "center",position: "relative",top: "18px" }}>
+        <ul style={{ display: "flex", justifyContent: "center",position: "relative",top: "18px",padding:"0" }}>
           {/* Only show 5 dots at a time based on the current dotIndex */}
           {dots.slice(dotIndex, dotIndex + 5)}
         </ul>
