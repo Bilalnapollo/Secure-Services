@@ -10,12 +10,13 @@ const options = [
     { value: "Door Phone Audio Video", label: "Door Phones Audio Video" },
     { value: "Attendance Machine", label: "Attendance Machines" },
     { value: "Cash Counter Machine", label: "Cash Counter Machines" },
+    { value: "Matel Detecter", label: "Matel Detecter" },
     // { value: "Cash Counter Machine", label: "Cash Counter Machines" },
-    // { value: "Matel Detecter", label: "Matel Detecter" },
-    // { value: "Signal Router", label: "Signal Routers" },
-    // { value: "Printer & External Hard Drive", label: "Printers & External Hard Drives" },
-    // { value: "Wireless Set & Accessories", label: "Wireless Sets & Accessories" },
-    // { value: "Telephone Exchange", label: "Telephone Exchange" },
+    { value: "Signal Router", label: "Signal Routers" },
+    { value: "Printer", label: "Printers" },
+    { value: "External Hard Drive", label: "External Hard Drives" },
+    { value: "Wireless Set & Accessories", label: "Wireless Sets & Accessories" },
+    { value: "Telephone Exchange", label: "Telephone Exchange" },
 ];
 
 const customStyles = {

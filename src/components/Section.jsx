@@ -20,7 +20,7 @@ const Section = ({ title, bgColor, productItems }) => {
     infinite: true,
     arrows: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: productItems.length < 3 ? productItems.length : 3,
     slidesToScroll: 1,
     responsive: [
     {

@@ -10,6 +10,11 @@ import phones from "../../Images/product76.png";
 import attendence from "../../Images/product79.png";
 import counter from "../../Images/product85.png";
 import matel from "../../Images/product87.png";
+import router from "../../Images/product94.png";
+import printer from "../../Images/product95.png";
+import drive from "../../Images/product96.png";
+import wireless from "../../Images/wireless.png";
+import tel from "../../Images/product112.png";
 import "./categories.css";
 
 const ProductCategories = ({ products }) => {
@@ -25,7 +30,12 @@ const ProductCategories = ({ products }) => {
         "Door Phone Audio Video": phones,
         "Attendance Machine": attendence,
         "Cash Counter Machine": counter,
-        // "Matel Detecter": matel,
+        "Matel Detecter": matel,
+        "Signal Router": router,
+        "Printer": printer,
+        "External Hard Drive": drive,
+        "Wireless Set & Accessories": wireless,
+        "Telephone Exchange": tel,
         // Add more categories and corresponding images
       };
     
