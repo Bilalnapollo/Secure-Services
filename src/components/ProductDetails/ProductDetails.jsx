@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { addToCart } from "../../app/features/cart/cartSlice";
 import "./product-details.css";
+import Swal from "sweetalert2";
 
 const ProductDetails = ({ selectedProduct }) => {
   const dispatch = useDispatch();
@@ -18,21 +19,26 @@ const ProductDetails = ({ selectedProduct }) => {
   };
 
   const handleWhatsAppRedirect = () => {
-    const phoneNumber = "923009403453"; // Your WhatsApp number
-    // const message = `Hello, I would like to order the product: ${productItem.productName}`;
-    // const whatsappUrl = `https://wa.me/${phoneNumber}`;
-    // window.location.href = whatsappUrl;
-    
-    
-    const message = `Hello, I would like to order the product 
-    Article: ${selectedProduct?.productName}. 
-    Category: ${selectedProduct?.category}.`;
-  
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    Swal.fire({
+      title: "Confirm Order",
+      text: "Do you want to proceed with this order?",
+      icon: "warning",
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      showCancelButton: true,
+      confirmButtonText: "Yes",
+      cancelButtonText: "No",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        const phoneNumber = "923009403453"; // Your WhatsApp number
+        const message = `Hello, I would like to order the product\nArticle: ${selectedProduct?.productName}\nCategory: ${selectedProduct?.category}.`;
+      
+        const encodedMessage = encodeURIComponent(message);
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
-
-    window.open(whatsappUrl, '_blank');
+        window.open(whatsappUrl, "_blank");
+      }
+    });
   };
 
   return (

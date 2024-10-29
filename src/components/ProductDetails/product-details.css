@@ -80,3 +80,6 @@
   font-size: 17px;
   border-radius: 7px;
 }
+.product-page button.add:hover{
+  background-color: #0b3f7e;
+}
