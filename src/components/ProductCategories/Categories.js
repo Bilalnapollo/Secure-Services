@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import { useParams } from "react-router-dom";
 import Section from '../Section';
 import { products } from '../../utils/products';
-import contatcBg from "../../Images/table.jpg";
+import contatcBg from "../../Images/banner.jpg";
 import { Col, Container, Row } from "react-bootstrap";
 
 const Categories = () => {
