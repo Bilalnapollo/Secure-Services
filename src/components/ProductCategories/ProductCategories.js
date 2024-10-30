@@ -15,6 +15,7 @@ import printer from "../../Images/product95.png";
 import drive from "../../Images/product96.png";
 import wireless from "../../Images/wireless.png";
 import tel from "../../Images/product112.png";
+import solar from "../../Images/product122.png";
 import "./categories.css";
 
 const ProductCategories = ({ products }) => {
@@ -25,6 +26,7 @@ const ProductCategories = ({ products }) => {
     const categoryImages = {
         "CCTV Camera": cctv,
         "Wifi Camera": wifi,
+        "Solar Camera": solar,
         "Fire & Safety": fire,
         "Access Control": controll,
         "Door Phone Audio Video": phones,

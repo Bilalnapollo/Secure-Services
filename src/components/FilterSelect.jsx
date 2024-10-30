@@ -5,6 +5,7 @@ const options = [
     { value: "all", label: "All" },
     { value: "CCTV Camera", label: "CCTV Cameras" },
     { value: "Wifi Camera", label: "Wifi Cameras" },
+    { value: "Solar Camera", label: "Solar Cameras" },
     { value: "Fire & Safety", label: "Fire & Safety" },
     { value: "Access Control", label: "Access Control" },
     { value: "Door Phone Audio Video", label: "Door Phones Audio Video" },
