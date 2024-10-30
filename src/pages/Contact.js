@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Col, Container, Row } from "react-bootstrap";
-import contatcBg from "../Images/table.jpg";
+import contatcBg from "../Images/banner.jpg";
 import ContactCard from '../components/Contact/ContactCard';
 import ContactForm from '../components/Contact/ContactForm';
 
