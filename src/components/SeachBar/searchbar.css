@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     max-width: 650px;
     height: 40px;
     padding:15px;
@@ -27,3 +28,49 @@ input[type="text"] {
     color: #999;
     cursor: pointer;
 }
+
+/* .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  } */
+  
+  /* .search-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #888;
+  } */
+
+  .react-autosuggest__suggestions-container {
+    position: absolute;
+    background-color: white;
+    /* border: 1px solid #ddd; */
+    z-index: 1;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 95%;
+    padding: 0; /* Remove padding */
+    margin: 0;  /* Remove margin */
+  }
+  
+  .react-autosuggest__suggestion {
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100%;
+    margin: 0; /* Remove any margin */
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #1c426f;
+    color: white;
+  }
+  .react-autosuggest__container{
+    width: 100%;
+  }
+  .search-container.with-suggestions .react-autosuggest__suggestions-container {
+    border: 1px solid #ddd;
+  }
+  
+
+  /* react-autosuggest__suggestions-container */
