@@ -11,7 +11,14 @@ const Home = () => {
   const newArrivalData = products.filter(
     (item) => item.category === "mobile" || item.category === "wireless"
   );
-  const bestSales = products.filter((item) => item.category === "CCTV Camera");
+  // const bestSales = products.filter((item) => item.category === "CCTV Camera");
+
+  const uniqueCategories = Array.from(new Set(products.map((item) => item.category)));
+
+  // Select one or two products from each unique category
+  const bestSales = uniqueCategories.flatMap((category) => 
+    products.filter((item) => item.category === category).slice(0, 1)
+  );
   useWindowScrollToTop();
   return (
     <Fragment>
