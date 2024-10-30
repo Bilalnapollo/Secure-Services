@@ -2,7 +2,6 @@ import React from 'react'
 import { Col, Container, Row } from "react-bootstrap";
 import aboutBg from "../Images/table.jpg";
 import about from "../Videos/about.mp4";
-import aboutImage from "../Images/about.jpeg";
 
 const About = () => {
   return (
