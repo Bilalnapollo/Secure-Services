@@ -1,7 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from "react-bootstrap";
-
 import aboutBg from "../Images/table.jpg";
+import about from "../Videos/about.mp4";
+import aboutImage from "../Images/about.jpeg";
 
 const About = () => {
   return (
@@ -38,12 +39,35 @@ const About = () => {
         </div>
       </div>
       <section>
-        <Container>
-            <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste sequi eveniet ipsum. Error cumque ipsum delectus molestias provident cum, harum deleniti placeat commodi exercitationem minima dignissimos facere nisi hic modi. Vero ex maxime excepturi quo dolores iusto nobis ipsum debitis. Quam numquam molestiae animi veniam non officia provident ipsam, optio tenetur eaque ipsum accusamus quidem nam aliquam modi consectetur dolores id officiis ullam quaerat voluptas. Dolor reiciendis eaque animi voluptas odio provident enim earum error ab vel laborum aliquam minima, odit expedita maiores quae, molestiae assumenda quos veniam? Natus, totam iure quas laudantium deserunt magni commodi delectus accusamus earum?</p>
+        <Container data-aos="fade-left" className='about-container' >
+            <div data-aos="fade-left">
+              <h2>Secure Services</h2>
+              <p>At Security Services, we are committed to creating safer environments through top-tier security and technology solutions. As a leading provider, we offer a comprehensive products designed to empower you with the peace of mind that comes from reliable, high-quality security.</p>
+              <p>Our range includes cutting-edge CCTV and WiFi Cameras for round-the-clock monitoring, as well as Solar Cameras for sustainable, off-grid security. For emergency preparedness, we provide robust Fire & Safety equipment, ensuring quick response and safety in critical situations.</p>
+              <p>In addition to security, we bring seamless access solutions with Access Control Systems and Audio-Video Door Phones—all designed to enhance security and convenience at your property’s entry points. Our advanced Attendance Machines and Cash Counter Machines bring streamlined efficiency to your workplace, while our Metal Detectors and Signal Routers reinforce high-standard operational protocols.</p>
+              <p>For added convenience, we also offer Printers, External Hard Drives, and Wireless Sets & Accessories, along with reliable Telephone Exchange systems for streamlined communication. With each product, our goal is to provide lasting quality and performance you can rely on.</p>
+              <p>Explore Security Services today—where security meets technology, and your safety is our top priority.</p>
+            </div>
+            <div className='a-video' data-aos="fade-right">
+              <video  controls>
+                <source src={about} type="video/mp4" />
+                Your browser does not support HTML video.
+              </video> 
+            </div>
+              
         </Container>
       </section>
+
+      {/* <video  controls>
+              <source src={about} type="video/mp4" />
+              Your browser does not support HTML video.
+            </video> */}
+      
     </>
   )
 }
 
 export default About
+
+
+// Acha mujhe about page ke liye discription likh do jo bhot attractive ho jis main meri products ke barey main likh do company ka namee aap ko pata security services hai hamary products main cctv cameras,wifi Cameras,Solar Cameras,Fire & Safety,Access Control,Door Phones Audio Video,Attendance Machines,Cash Counter Machines,Matel Detecter,Signal Routers,Printers,External Hard Drives,Wireless Sets & Accessories and Telephone Exchange hai bs in k barey main attractice sa about page ki discription likh do
