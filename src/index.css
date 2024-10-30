@@ -157,6 +157,7 @@ button {
 .not-found {
   margin: 40px auto 20px;
   width: fit-content;
+  color: red;
 }
 
 /*   ---Cart Page---   */
