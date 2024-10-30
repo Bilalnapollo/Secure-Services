@@ -62,9 +62,10 @@ const ProductDetails = ({ selectedProduct }) => {
             </div> */}
             <div className="info">
               {/* <span className="price">${selectedProduct?.price}</span> */}
-              <span>category: {selectedProduct?.category}</span>
+              <span>Category: {selectedProduct?.category}</span>
             </div>
-            <p>{selectedProduct?.shortDesc}</p>
+            {/* <p>{selectedProduct?.shortDesc}</p> */}
+            <p><strong>Your Safety, Our Priority!</strong> Explore cutting-edge security products at Security Services that keep you safe and sound. Click order now to make safety a reality!</p>
             {/* <input
               className="qty-input"
               type="number"
