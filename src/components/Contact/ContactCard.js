@@ -8,7 +8,7 @@ const ContactCard = () => {
     window.open(phoneNumber, '_blank');
   };
   const handleEmaleRedirect = () => {
-    const email = "mailto:test@gmail.com";
+    const email = "mailto:sohailbuttlhr42@gmail.com";
     window.open(email, '_blank');
   };
   const handleAddressRedirect = () => {
