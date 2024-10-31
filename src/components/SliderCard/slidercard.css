@@ -49,17 +49,18 @@
 .btn-primary{
     text-decoration: none;
     /* background: #3fd1e7; */
-    background-color: #0fab5b;
+    background-color: #25d366;
     color: white;
     display: inline-block;
     width: 25%;
     text-align: center;
     padding: 8px;
     border-radius: 5px;
+    box-shadow: 0 4px 10px #0003;
 }
 .btn-primary:hover{
     color: white;
-    background: #0cc566;
+    background: #16df60;
 }
 
 @media (max-width: 998px){

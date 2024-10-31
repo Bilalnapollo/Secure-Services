@@ -113,6 +113,23 @@ video{
     background-color: #1c426f;
     margin-top: 20px;
 }
+.global-wa{
+  background: #25d366;
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px #0003;
+}
+.global-wa:hover{
+  background: #16df60;
+}
 
 
 

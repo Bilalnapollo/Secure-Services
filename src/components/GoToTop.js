@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp,FaWhatsapp } from "react-icons/fa";
+
 
 const GoToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,6 +28,7 @@ const GoToTop = () => {
   }, []);
 
   return (
+    <>
     <Wrapper>
       {isVisible && (
         <div className="top-btn" onClick={goToBtn}>
@@ -34,6 +36,12 @@ const GoToTop = () => {
         </div>
       )}
     </Wrapper>
+    <div className="global-wa">
+     <a href="https://wa.me/923009403453" target="_blank">
+     <FaWhatsapp className="icons" color="white" size="22" />
+     </a>
+    </div>
+    </>
   );
 };
 
@@ -45,15 +53,15 @@ const Wrapper = styled.div`
 
   .top-btn {
     font-size: 1.5rem;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 50px;
+    height: 50px;
     color: #fff;
     background-color: #1c426f;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
     border-radius: 50%;
     position: fixed;
-    bottom: 5rem;
-    right: 5rem;
+    bottom: 20px;
+    right: 20px;
     z-index: 999;
     display: flex;
     justify-content: center;
