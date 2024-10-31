@@ -94,7 +94,7 @@
   color: white; /* Active link color */
   /* font-weight: bold; */
   background-color: #1c426f;
-  padding: 8px;
+  padding: 8px 12px;
   border-radius: 5px;
   font-size: 1rem !important;
 }
@@ -162,7 +162,7 @@
   color: black;
   font-size: 1rem !important;
   font-weight: bold;
-  padding: 8px;
+  padding: 8px 12px;
   transition: all 0.3s;
 }
 
