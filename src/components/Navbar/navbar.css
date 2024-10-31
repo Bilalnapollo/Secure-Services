@@ -110,9 +110,7 @@
   align-items: center;
   width: 53%;
 }
-.navbar-nav .nav-item:nth-child(1){
-  padding-top: 15px;
-}
+
 
 
 
@@ -126,6 +124,9 @@
   }
   .nav-logo-container{
     width: 77%;
+  }
+  .navbar-nav .nav-item:nth-child(1){
+    padding-top: 15px;
   }
 }
 
