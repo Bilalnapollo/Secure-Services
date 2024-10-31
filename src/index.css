@@ -126,11 +126,22 @@ video{
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 10px #0003;
+    /* animation: spin 1.5s linear infinite; */
 }
 .global-wa:hover{
   background: #16df60;
 }
+/* .global-wa .icons {
+} */
 
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
 
 
 
@@ -216,6 +227,9 @@ video{
   .err-style h2{
     font-size: 1.2rem;
   } 
+  .global-wa{
+    left: 5%;
+  }
 }
 
 .not-found {
