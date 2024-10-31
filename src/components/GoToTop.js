@@ -32,7 +32,7 @@ const GoToTop = () => {
     <Wrapper>
       {isVisible && (
         <div className="top-btn" onClick={goToBtn}>
-          <FaArrowUp className="top-btn--icon" />
+          <FaArrowUp className="top-btn--icon" size="22" />
         </div>
       )}
     </Wrapper>
@@ -57,7 +57,8 @@ const Wrapper = styled.div`
     height: 50px;
     color: #fff;
     background-color: #1c426f;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
+    ${'' /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */}
+    box-shadow: 0 4px 10px #0003;
     border-radius: 50%;
     position: fixed;
     bottom: 20px;
@@ -71,6 +72,9 @@ const Wrapper = styled.div`
     &--icon {
       animation: gototop 0.8s linear infinite alternate-reverse;
     }
+    &:hover{
+    background-color: #0e4a93;
+    }
 
     @keyframes gototop {
       0% {
@@ -81,6 +85,7 @@ const Wrapper = styled.div`
       }
     }
   }
+  
 
   @media (max-width: 768px) {
     .top-btn {
