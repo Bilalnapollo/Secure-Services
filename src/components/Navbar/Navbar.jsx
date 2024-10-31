@@ -4,12 +4,15 @@ import "./navbar.css";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import logo from "../../Images/logo.png";
+import { products } from "../../utils/products";
+import SearchBar2 from "../SeachBar/SearchBar2";
 
 const NavBar = () => {
   const { cartList } = useSelector((state) => state.cart);
   const [expand, setExpand] = useState(false);
   const [isFixed, setIsFixed] = useState(false);
   const location = useLocation();
+  const [filterList, setFilterList] = useState(products);
 
   const isActiveLink = (path) => {
     return location.pathname === path ? "active-link" : "";
@@ -23,9 +26,14 @@ const NavBar = () => {
       expanded={expand} // Ensure the expanded state is bound here
     >
       <Container className="navbar-container">
-        <Link to="/">
-          <img src={logo} alt="" width={65} />
-        </Link>
+        <div className="nav-logo-container">
+          <Link to="/">
+            <img src={logo} alt="" width={65} />
+          </Link>
+          <SearchBar2 setFilterList={setFilterList} />
+        </div>
+
+        
         <div className="d-flex">
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
@@ -78,6 +86,7 @@ const NavBar = () => {
                 <span className="nav-link-label">Contact Us</span>
               </Link>
             </Nav.Item>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -104,6 +104,15 @@
 .nav-labels{
   gap: 15px;
 }
+.nav-logo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 53%;
+}
+.navbar-nav .nav-item:nth-child(1){
+  padding-top: 15px;
+}
 
 
 
@@ -114,6 +123,9 @@
 
   .navbar-nav .nav-item::after {
     display: none !important;
+  }
+  .nav-logo-container{
+    width: 77%;
   }
 }
 
@@ -142,7 +154,7 @@
   align-items: center;
   gap: 5px;
   font-size: 10px !important;
-  padding: 0.8rem 0.5rem 0.2rem !important;
+  padding: 0 0.5rem 0.2rem !important;
 }
 
 .nav-link-label {

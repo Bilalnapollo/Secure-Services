@@ -9,6 +9,10 @@
     border-radius: 20px;
     background-color: #f2f2f2;
 }
+.search2{
+  width: 70%;
+}
+
 
 input[type="text"] {
     width: 100%;

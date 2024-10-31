@@ -89,6 +89,30 @@ video{
 .a-video{
   width: 100%;
 }
+.err-style{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.err-style h1{
+  font-size: 85px;
+}
+.err-style h2{
+  font-size: 1.5rem;
+}
+
+.go-back{
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #1c426f;
+    margin-top: 20px;
+}
 
 
 
@@ -169,6 +193,12 @@ video{
   .filter-bar .row {
     gap: 20px;
   }
+  .err-style h1{
+    font-size: 60px;
+  }
+  .err-style h2{
+    font-size: 1.2rem;
+  } 
 }
 
 .not-found {

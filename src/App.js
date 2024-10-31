@@ -10,6 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import GoToTop from "./components/GoToTop";
+import Error from "./pages/Error";
 // import Categories from "./components/ProductCategories/Categories";
 // import Categories from "./components/ProductCategories/Categories";
 const Home = lazy(() => import("./pages/Home"));
@@ -43,6 +44,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/category/:categoryName" element={<Categories />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </Router>
