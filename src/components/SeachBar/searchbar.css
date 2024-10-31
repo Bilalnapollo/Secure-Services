@@ -76,5 +76,10 @@ input[type="text"] {
     border: 1px solid #ddd;
   }
   
+  @media (max-width: 767px) {
+    .opt{
+      font-size: 14px;
+    }
+  }
 
   /* react-autosuggest__suggestions-container */

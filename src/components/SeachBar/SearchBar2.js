@@ -21,7 +21,7 @@ const SearchBar2 = ({ setFilterList }) => {
   const getSuggestionValue = (suggestion) => suggestion.productName;
 
   const renderSuggestion = (suggestion) => (
-    <div>{suggestion.productName}</div>
+    <div className="opt">{suggestion.productName}</div>
   );
 
   const onSuggestionSelected = (event, { suggestion }) => {
