@@ -101,8 +101,8 @@ const ContactForm = ({heading}) => {
                 {/* <div className='w-50'>
                     <button className='w-90 c-btn c-btn1' onClick={handleEmaleRedirect}>Message Via Email <IoMdArrowRoundForward size={20} /></button>
                 </div> */}
-                <div className=''>
-                    <button className=' c-btn c-btn1' onClick={handleWhatsAppRedirect}>Message Send <IoMdArrowRoundForward size={20} /></button>
+                <div className='c-btn-container'>
+                    <button className=' c-btn c-btn1' onClick={handleWhatsAppRedirect}>Send Message <IoMdArrowRoundForward size={20} /></button>
                 </div>
             </div>
           </div>

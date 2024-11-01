@@ -80,9 +80,9 @@
 }
 
 .navbar-link span:hover{
-  background-color: #1c426f;
-  color: white;
-  border-radius: 5px;
+  /* background-color: #1c426f; */
+  /* color: white; */
+  /* border-radius: 5px; */
   /* padding: 5px 10px; */
 
   /* color: #91640F; */
@@ -109,6 +109,38 @@
   justify-content: space-between;
   align-items: center;
   width: 53%;
+}
+.navbar-link {
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 65%;
+  height: 3px; /* Adjust thickness of the border */
+  background-color: #1c426f; /* Color of the border */
+  bottom: 0; /* Adjust distance from the text */
+  left: 10;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+.navbar-link span:hover{
+  color: #1c426f;
+}
+.active-link span:hover{
+  color: white;
+}
+.navbar-link:hover::after {
+  transform: scaleX(1);
+}
+.navbar-link.active-link:hover::after{
+  transform: scaleX(0);
 }
 
 

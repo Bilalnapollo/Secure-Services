@@ -54,7 +54,7 @@ const SearchBar2 = ({ setFilterList }) => {
   };
 
   const inputProps = {
-    placeholder: "Search Article...",
+    placeholder: "Search...",
     value: searchWord,
     onChange: onChange,
   };

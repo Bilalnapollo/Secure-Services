@@ -105,9 +105,12 @@
     gap: 8px;
     border-radius: 5px;
   }
+  .c-btn-container{
+    width: 95%;
+  }
   .c-btn1{
     background-color: #0f3460;
-    width: fit-content;
+    width: 100%;
   }
   .c-btn2{
     background-color: #0fab5b;
