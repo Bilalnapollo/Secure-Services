@@ -13,16 +13,31 @@ const NavBar = () => {
   const [isFixed, setIsFixed] = useState(false);
   const location = useLocation();
   const [filterList, setFilterList] = useState(products);
+  const [isSticky, setIsSticky] = useState(false);
 
   const isActiveLink = (path) => {
     return location.pathname === path ? "active-link" : "";
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup on unmount
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <Navbar
       fixed="top"
       expand="md"
-      className={isFixed ? "navbar fixed" : "navbar"}
+      className={`navbar ${isSticky ? "navbar-sticky" : ""}`}
       expanded={expand} // Ensure the expanded state is bound here
     >
       <Container className="navbar-container">
